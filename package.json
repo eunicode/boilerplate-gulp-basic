@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/eunicode/boilerplate-gulp-basic/issues"
   },
-  "homepage": "https://github.com/eunicode/boilerplate-gulp-basic#readme"
+  "homepage": "https://github.com/eunicode/boilerplate-gulp-basic#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gh-pages": "^2.0.1",
+    "gulp": "^4.0.0"
+  }
 }

@@ -18,12 +18,11 @@ https://stackoverflow.com/questions/41965066/access-to-image-from-origin-null-ha
 
 Installing packages locally
 
-`npm init` - Creates package.json file
-
-`npm init --y` - Quicker method
+- `npm init` - Creates package.json file
+- `npm init --y` - Quicker method
 
 devDependencies<br>
-- `npm install --save-dev browser-sync gh-pages gulp`
+- `npm install --save-dev browser-sync gh-pages gulp@next`
 - `npm i -S <package name>`
 
 dependencies<br>
