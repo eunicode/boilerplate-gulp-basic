@@ -90,6 +90,17 @@ npm install
 
 ### Development
 
-Inside the newly created project, you can run `gulp` to start the live reloading Browsersync server.
+Inside the newly created project, run `gulp` to start the live reloading Browsersync server.
 
+```
+gulp
+```
+
+### Deploy
+
+To deploy the project on GitHub Pages, run
+
+```
+npm run deploy
+```
 
