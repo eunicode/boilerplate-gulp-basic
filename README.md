@@ -49,17 +49,23 @@ Then commit the files.
 
 ```
 git add .
-git commit -m ":tada: First commit"
+git commit -m ":tada: Bootstrap project from boilerplate"
 ```
 
-### Creating a repo on GitHub
+### Adding repo to GitHub
 
-Create a new repo on GitHub. To avoid errors, do not initialize the new repo with README, license, or gitignore files.
+Create a new repo on GitHub. See more detailed instructions on adding an existing project to GitHub [here](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/). To avoid errors, do _not_ initialize the new repo with README, license, or gitignore files.
 
-Copy the remote repo URL, then add the remote to your local repo.
+Copy the remote repo URL, then configure the remote repo for your local repo.
 
 ```
 git remote add origin https://github.com/username/yourNewRepoName.git
+```
+
+Push the changes in your local repo to GitHub.
+
+```
+git push -u origin master
 ```
 
 ### Directory structure
